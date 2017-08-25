@@ -27,6 +27,12 @@ print "DONE!!!!"]]></param>
     </vcs-settings>
     <requirements />
     <build-triggers />
+    <artifact-dependencies>
+      <dependency id="ARTIFACT_DEPENDENCY_2" sourceBuildTypeId="Ducati_Ble_TestCode2" cleanDestination="false">
+        <revisionRule name="sameChainOrLastFinished" revision="latest.sameChainOrLastFinished" />
+        <artifact sourcePath="** =&gt;." />
+      </dependency>
+    </artifact-dependencies>
     <dependencies>
       <depend-on sourceBuildTypeId="Ducati_Ble_TestCode2">
         <options>
