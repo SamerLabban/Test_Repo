@@ -22,7 +22,9 @@ print "DONE!!!!"]]></param>
         </parameters>
       </runner>
     </build-runners>
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Ducati_Ble_TestRepo2" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <dependencies>
